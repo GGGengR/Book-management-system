@@ -1,0 +1,79 @@
+@charset "UTF-8";
+*{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            border: 0;
+        }
+        .all{
+            width: 500px;
+            height: 200px;
+            padding: 7px;
+            margin: 100px auto;
+            position: relative;
+            box-shadow: 1px 1px 5px #2d2d2d;
+        }
+        .screen{
+            width: 500px;
+            height: 200px;
+            overflow: hidden;
+            position: relative;
+        }
+        .screen li{
+            width: 500px;
+            height: 200px;
+            overflow: hidden;
+            float: left;
+        }
+        .screen ul{
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 3000px;
+        }
+        .all ol{
+            position: absolute;
+            right: 10px;
+            bottom: 10px;
+            line-height: 20px;
+            text-align: center;
+        }
+        .all ol li{
+            float: left;
+            width: 20px;
+            height: 20px;
+            text-align: center;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        .all ol li.current{
+            background-color: #03c03c;
+        }
+        #arr{
+            display: none;
+        }
+        #arr span{
+            width: 40px;
+            height: 40px;
+            left: 5px;
+            top: 50%;
+            position: absolute;
+            margin-top: -20px;
+            background-color: #000;
+            cursor: pointer;
+            line-height: 35px;
+            text-align: center;
+            font-weight: bold;
+            font-family: "微软雅黑";
+            font-size: 30px;
+            color: #fff;
+            opacity: 0.3;
+            border-radius: 50%;
+            box-shadow: 1px 1px 3px #2d2d2d;
+        }
+        #arr #right{
+            right: 5px;
+            left: auto;
+        }
